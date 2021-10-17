@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Calendar /> renders without crashing 1`] = `
+<article
+  className="calendar"
+>
+  <header>
+    <i
+      className="far fa-clock header-icon"
+    />
+    <h1
+      className="header-text"
+    >
+      Opening hours
+    </h1>
+  </header>
+  <section
+    className="calendar-section"
+  />
+</article>
+`;

@@ -1,0 +1,27 @@
+.calendar {
+  background-color: var(--white);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  width: 350px;
+  margin: auto;
+
+  header {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid var(--black);
+    padding-bottom: 15px;
+
+    .header-icon {
+      color: var(--grey-three);
+      font-size: 22px;
+    }
+
+    .header-text {
+      margin: 0;
+      margin-left: 10px;
+      font-size: 32px;
+      font-weight: 900;
+    }
+  }
+}
